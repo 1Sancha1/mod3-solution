@@ -1,0 +1,161 @@
+* {
+	box-sizing: border-box;
+}
+body {
+	font-size: 16px;
+	background-color: #FFFFFF;
+	font-family: Times New Roman, sans-serif;
+}
+
+/*HEADER*/
+#header-nav{
+	background-color: #FBD00B;
+	width: 100%;
+	border-radius: 0;
+	border: 0;
+}
+.navbar-header{
+	width: 100%;
+}
+.navbar-header .navbar-toggle {
+  position: relative;
+  float: right;
+  padding: 15px 17px;
+  margin: 8px;
+  background-color: #FBD00B;
+  background-image: none;
+  border: 1px solid black;
+  border-radius: 4px;
+}
+
+/*END HEADER*/
+
+/*MAIN*/
+#main-content{
+	
+}
+#our-menu {
+	font-size: 3em;
+	text-align: center;
+	margin: 30px;
+}
+h1, .navbar-header .navbar-toggle span{
+	color: #0056b3;
+	font-weight: bold;
+}
+h2{
+	text-align: center;
+	color: #FBD00B;
+	margin-bottom: 0px;
+}
+#chicken, #beef, #sushi{
+	margin: 5px;
+	margin-bottom: 20px;
+	background-color: gray
+}
+.text{
+	margin: 0
+}
+
+
+/*END MAIN*/
+
+/********** Medium devices only **********/
+@media (min-width: 992px) {
+	#chicken, #beef, #sushi{
+		width: 31%;
+		float: left;
+	}
+}
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+	#chicken, #beef{
+		width: 45%;
+		float: left;
+	}
+	#sushi{
+		width: 92%;
+		float: left;
+	}
+}
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+
+#collapsable-nav a { 
+    font-size: 1.2em;
+  }
+#collapsable-nav a span { 
+    font-size: 1em;
+    margin-right: 5px;
+  }
+}
+/********** Menu **********/
+@media (min-width: 768px) {
+  /* Header */
+.navbar-header .navbar-toggle{
+	display: none;
+}
+.navbar-collapse #nav-list .hidden-xs {
+    display: none !important;
+}
+}
+/*h1	{
+	text-align: center;
+}
+section {
+	background-color: gray;
+	border: 2px solid #010100;
+	margin: 10px;
+	float: left;
+}
+
+.name_food{
+	background-color: #010100;
+
+	padding: 2px;
+	float: right;
+	overflow: auto;
+}
+#chicken{
+	text-align: center;
+	background-color: #E63590;
+	width: 200px;
+	height:  20px;
+	
+}
+#beef{
+	color: #FFFFFF;
+	text-align: center;
+	background-color: #D31B06;
+	width: 200px;
+	height:  20px;
+	
+}
+
+#sushi{
+	text-align: center;
+	background-color: #FBD00B;
+	width: 200px;
+	height:  20px;
+	
+}
+
+p{
+	clear: right;
+	padding: 10px;
+}
+
+@media (min-width: 992px){
+	section{width: 31%;}
+}
+
+@media (min-width: 768px) and (max-width: 991px){
+	section{width: 45%;}
+	#last{width: 92%;}
+}
+@media (max-width: 767px){
+	section{width: 99%}
+}
+*/
